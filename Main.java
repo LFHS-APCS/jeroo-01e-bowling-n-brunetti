@@ -12,7 +12,7 @@ public class Main implements Directions {
         runJerooCode();
 
          Jeroo joe = new Jeroo(0,0,EAST,100);
- joe.setUpPins();
+ joe.setUpBowling();
     }
 
     /**
@@ -20,7 +20,7 @@ public class Main implements Directions {
      */
     public static void runJerooCode() {
        Jeroo jeroo = new Jeroo(0, 0, EAST, 100);
-       jeroo.setUpPins();
+       jeroo.setUpBowling();
        Map.getInstance().printMap();
        System.out.println(jeroo.getOps());
     }
