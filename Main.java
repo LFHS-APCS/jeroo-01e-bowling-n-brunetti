@@ -11,6 +11,8 @@ public class Main implements Directions {
         new JerooGUI();
         runJerooCode();
 
+         Jeroo joe = new Jeroo(0,0,EAST,100);
+ joe.setUpPins();
     }
 
     /**
