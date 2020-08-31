@@ -63,7 +63,7 @@ public void oneRow(){
   
 }
 
-public void setUpPins(){
+public void setupBowling(){
   turn(RIGHT);
   hop();
   turn(LEFT);
