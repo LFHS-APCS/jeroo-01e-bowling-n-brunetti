@@ -5,7 +5,93 @@
 public class Jeroo extends JerooBase {
 
     // Put your own methods here    
-    
+    public void fiveRow(){
+  hop();
+  plant();
+   hop();
+  hop();
+  plant();
+   hop();
+  hop();
+  plant();
+  hop(); 
+  hop();
+  plant();
+  hop();
+  
+}
+
+public void threeRow(){
+  hop();
+  hop();
+  plant();
+   hop();
+  hop();
+  plant();
+   hop();
+  hop();
+  plant();
+  hop(); 
+  hop();
+  
+}
+
+public void twoRow(){
+  hop();
+  hop();
+  hop();
+  plant();
+   hop();
+  hop();
+  plant();
+   hop();
+  hop();
+  hop();
+
+}
+
+public void oneRow(){
+    hop();
+  hop();
+  hop();
+  hop();
+  plant();
+   hop();
+  hop();
+   hop();
+  hop();
+  
+}
+
+public void setUpPins(){
+  turn(RIGHT);
+  hop();
+  turn(LEFT);
+  
+  fiveRow();
+  
+  turn(RIGHT);
+  hop();
+  turn(RIGHT);
+  
+  threeRow();
+  
+  turn(LEFT);
+  hop();
+  turn(LEFT);
+  
+  twoRow();
+  
+  turn(RIGHT);
+  hop();
+  turn(RIGHT);
+  
+  oneRow();
+  
+  turn(LEFT);
+  hop();
+  turn(LEFT);
+}
     
 
 
